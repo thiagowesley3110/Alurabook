@@ -1,0 +1,21 @@
+@import url(style/header.css);
+@import url(style/banner.css);
+@import url(style/carrossel.css);
+@import url(style/card.css);
+
+:root{
+    --cor-de-fundo:#EBECEE;
+    --cor-branco:#ffffff;
+    --cor-laranja:#EB9B00;
+    --cor-azul:#002F52;
+    --gradiente: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
+    --font-principal:'Poppins', sans-serif;
+    --font-secundaria:'Josefin Sans', sans-serif;
+    --cor-preto:#000;
+}
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--font-principal);
+    font-size: 16px;
+    font-weight: 400;    
+}
